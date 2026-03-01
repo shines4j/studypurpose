@@ -9,7 +9,6 @@
           "name": "Percentage",
           "dataType": "Double",
           "expression": "[TOTAL SALES]/[Transaction Count]",
-          "formatString": "General Number",
           "references": {
             "measures": [
               {

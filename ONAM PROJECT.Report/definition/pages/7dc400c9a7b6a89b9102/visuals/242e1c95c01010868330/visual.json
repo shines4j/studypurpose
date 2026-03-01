@@ -3,10 +3,10 @@
   "name": "242e1c95c01010868330",
   "position": {
     "x": 26.261398176291795,
-    "y": 344.31610942249239,
+    "y": 338.48024316109422,
     "z": 0,
-    "height": 345.28875379939211,
-    "width": 569.96960486322189,
+    "height": 351.12462006079028,
+    "width": 578.72340425531922,
     "tabOrder": 0
   },
   "visual": {
@@ -324,5 +324,37 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c3f810bb0d0dbed60c08",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SSDT"
+              }
+            },
+            "Property": "PRODUCT_ID"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "bd8e85878710d0c3dc1d",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SSDT"
+              }
+            },
+            "Property": "TOTAL SALES"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }
