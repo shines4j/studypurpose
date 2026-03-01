@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/reportExtension/1.0.0/schema.json",
+  "name": "extension",
+  "entities": [
+    {
+      "name": "SSDT",
+      "measures": [
+        {
+          "name": "Percentage",
+          "dataType": "Double",
+          "expression": "[TOTAL SALES]/[Transaction Count]",
+          "formatString": "General Number",
+          "references": {
+            "measures": [
+              {
+                "entity": "SSDT",
+                "name": "TOTAL SALES"
+              },
+              {
+                "entity": "SSDT",
+                "name": "Transaction Count"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
