@@ -1,0 +1,5 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/semanticModel/modelReference/2.0.0/schema.json",
+  "connectionString": "Data Source=DESKTOP-EPETCPC\\ANALYSIS;Initial Catalog=\"onam ssas prj\";Cube=Model",
+  "connectionType": "analysisServicesDatabaseLive"
+}

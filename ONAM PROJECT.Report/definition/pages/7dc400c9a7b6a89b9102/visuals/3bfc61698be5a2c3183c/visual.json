@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "3bfc61698be5a2c3183c",
+  "position": {
+    "x": 26.261398176291795,
+    "y": 9.72644376899696,
+    "z": 5000,
+    "height": 81.702127659574472,
+    "width": 1231.3677811550153,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "THIS IS MY PRATCISE TO IMPLEMENT ORACLE-SSAS-SQL SERVER-POWER BI FOR A PROJECT",
+                    "textStyle": {
+                      "fontFamily": "Constantia",
+                      "fontSize": "24pt",
+                      "textDecoration": "underline",
+                      "color": "#e66c37"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
